@@ -1,6 +1,6 @@
 ## What is Hancock
 
-Hancock is a Discord Bot with a plugin api to build on.
+Hancock is a Discord Bot that ships no features but an api to build on.
 
 ### Build and Setup
 
