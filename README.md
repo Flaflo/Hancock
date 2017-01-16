@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+## What is Hancock
 
-You can use the [editor on GitHub](https://github.com/Flaflo/Hancock/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Hancock is a Discord Bot with a plugin api to build on.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Feature
 
-### Markdown
+A Feature is a Plugin that gets loaded from the configurated folder to extend Hancock's functionally.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+Example feature class
+```java
+@HancockFeature(name = "Name", description = "Description", author = "Author", version = 1.0)
+public final class ExampleFeature extends Feature {
+    @Override 
+    public void onEnable() {
+       System.out.println(this.getName() + " v" + this.getVersion() + " has been enabled."); 
+    }
+    
+    @Override
+    public void onDisable() {
+        System.out.println(this.getName() + " v" + this.getVersion() + " has been disabled.");
+    }
+}
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Flaflo/Hancock/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
