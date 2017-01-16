@@ -1,0 +1,2 @@
+# Hancock
+A Discord Bot
