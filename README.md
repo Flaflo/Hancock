@@ -7,6 +7,7 @@ Hancock is a Discord Bot with a plugin api to build on.
 A Feature is a Plugin that gets loaded from the configurated folder to extend Hancock's functionally.
 
 Example feature class
+
 ```Java
 @HancockFeature(name = "Name", description = "Description", author = "Author", version = 1.0)
 public final class ExampleFeature extends Feature {
