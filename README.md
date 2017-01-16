@@ -31,4 +31,4 @@ public final class ExampleFeature extends Feature {
 }
 ```
 
-A fully JavaDoc can be found <a href="">here</a>.
+A fully JavaDoc can be found <a href="http://hybridhacker.net/hancock/apidocs/">here</a>.
