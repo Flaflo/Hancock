@@ -12,7 +12,7 @@ You will notice another folder that is called ``features`` here are all feature 
 
 ### Feature
 
-A Feature is a Plugin that gets loaded from the configurated folder to extend Hancock's functionally.
+A Feature is a Plugin that gets loaded from the configurated folder to extend Hancock's functionallity.
 
 Example feature class
 
@@ -31,4 +31,4 @@ public final class ExampleFeature extends Feature {
 }
 ```
 
-A fully JavaDoc can be found <a href="http://hybridhacker.net/hancock/apidocs/">here</a>.
+A full JavaDoc can be found <a href="http://hybridhacker.net/hancock/apidocs/">here</a>.
